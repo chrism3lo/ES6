@@ -30,5 +30,5 @@ let stringFunc = (string, char) => {
     }
     return count;
 };
-
-console.log(`The occurrence of "${userChar}" in the string "${userString}" is ${stringFunc(userString, userChar)}`);
+console.log(`The String is: "${userString}"`)
+console.log(`The occurrence of "${userChar}" in the string is ${stringFunc(userString, userChar)}`);
